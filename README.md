@@ -8,7 +8,6 @@ The idea behind this is the slog that uploading a set of data to an org, where y
 
 **IMPORTANT NOTE**: This is a work in progress, please make sure to **always** try these operations in a sandbox first. I'm not responsible if you create a bunch of records in your Production environment.
 
----
 ## Quick Start
 
 - Upload your CSV as a static resource from within Setup
@@ -19,12 +18,10 @@ Database.executeBatch(new DataUploadValidator_BATCH(<StaticResourceName>, <Targe
 ```
 - The results of your operation will be provided in the final log of the batch.
 
----
 ## Contribute
 
 **TBD**
 
----
 ## License
 
 MIT License, 
